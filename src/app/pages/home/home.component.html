@@ -1,0 +1,15 @@
+<div class="d-block justify-content-center m-auto py-2">
+    <app-card
+        title="HORARIO ACTUAL"
+        subtitle="Con Asincronia"
+        content="{{horaActual$ | async}}"
+    ></app-card>
+</div>
+
+<div class="d-block justify-content-center m-auto py-2">
+    <app-card
+        title="HORARIO ACTUAL"
+        subtitle="Sin Asincronia"
+        content="{{horaActualNoAsync}}"
+    ></app-card>
+</div>
